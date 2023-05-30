@@ -1,8 +1,8 @@
 # PlantStop
 
-![Languages used](https://img.shields.io/github/languages/count/isadfrn/dds-t12-front-review02-plantstop?style=flat-square)
-![Repository size](https://img.shields.io/github/repo-size/isadfrn/dds-t12-front-review02-plantstop?style=flat-square)
-![Last commit](https://img.shields.io/github/last-commit/isadfrn/dds-t12-front-review02-plantstop?style=flat-square)
+![Languages used](https://img.shields.io/github/languages/count/isadfrn/plantstop?style=flat-square)
+![Repository size](https://img.shields.io/github/repo-size/isadfrn/plantstop?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/isadfrn/plantstop?style=flat-square)
 
 ## About
 
