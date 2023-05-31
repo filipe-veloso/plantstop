@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>PlantStop</title>
-  </head>
-  <body>
-    <header class="container">
-      <img
-        src="./assets/img/logo.png"
-        alt="Uma planta com o texto PlantStop que se traduzido se lê Parada das Plantas, um e-commerce de compra de plantas"
-      />
 
-      <nav>
-        <ul class="navbar-container">
-          <li><a href="#" class="navbar-link">Comprar</a></li>
-          <li><a href="#" class="navbar-link">Sobre</a></li>
-          <li><a href="#" class="navbar-link">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Plantstop</title>
+</head>
 
-    <aside class="ad-container container">
-      <p>Nova espécie de Philodendron disponíveis!</p>
-      <a href="#">Saiba mais!</a>
-    </aside>
+<body>
+  <header class="container">
+    <img src="./assets/logo.png" alt="uma planta com o texto">
 
-    <main class="container headline">
-      <img
-        src="./assets/img/bonsai.png"
-        alt="Uma planta com raízes densas em um
-      pequeno vaso"
-      />
-      <div class="headline-text">
-        <p>Seu melhor shopping para coisas <span>verdes</span>!</p>
-        <button>Plantas disponiveis</button>
+    <nav>
+      <ul class="navbar-container">
+        <li><a href="#" class="navbar-link">Comprar</a></li>
+        <li><a href="#" class="navbar-link">Sobre</a></li>
+        <li><a href="#" class="navbar-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <aside class="ad-container container">
+    <p>Nova espécie de Philodendron disponíveis!</p>
+    <a href="#">Saiba mais!</a>
+  </aside>
+
+  <main class="container headline">
+    <img src="./assets/bonsai.png" alt="bonsai">
+    <div class="headline-text">
+      <p>
+        Seu melhor shopping para coisas <span>verdes</span>!
+      </p>
+      <button>Plantas disponíveis</button>
+    </div>
+
+  </main>
+
+  <section class="sobre container">
+    <div class="sobre-text">
+      <h2>Quem somos nós?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div>
+      <img src="./assets/cliente.png" alt="mulher loira branca segurando uma planta">
+    </div>
+
+  </section>
+
+
+  <div class="produtos-text">
+    <h2>Mais vendidos</h2>
+  </div>
+  <section class="produtos container">
+    <div>
+      <img src="./assets/planta01.png" alt="">
+      <p>Peace Lily</p>
+    </div>
+    <div>
+      <img src="./assets/planta02.png" alt="">
+      <p>Prayer Plant</p>
+    </div>
+    </div>
+    <div>
+      <img src="./assets/planta03.png" alt="">
+      <p>Snake Plant</p>
+    </div>
+    <div>
+      <img src="./assets/planta04.png" alt="">
+      <p>Calla Lily</p>
+    </div>
+
+  </section>
+
+
+  <section class="contato container">
+
+    <div class="contato-caixa">
+
+      <div class="contato-header-form">
+
+        <div class="contato-header">
+
+          <h2>Contato</h2>
+
+          <div class="navbar-socials ">
+            <a href="#"><img src="./assets/instagram.png" alt="icon instagram"></a>
+            <a href="#"><img src="./assets/facebook.png" alt="icon facebook"></a>
+            <a href="#"><img src="./assets/twitter.png" alt="icon twitter"></a>
+          </div>
+
+        </div>
+
+        <form class="contato-form " action="./index.html">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+          <label for="Mensagens">Mensagens</label>
+          <textarea name="text" id="mensagem" cols="30" rows="10"></textarea>
+          <a href="#">Enviar</a>
+        </form>
+
       </div>
-    </main>
 
-    <section class="sobre container">
-      <div class="sobre-text">
-        <h2>Quem somos nós</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
-          maiores nesciunt inventore earum, nihil tempora, dolorem magni ex modi
-          reiciendis quis natus aspernatur architecto facilis. Nulla beatae
-          molestiae repellat minima! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Dignissimos saepe consequatur ullam! Optio dolor ab
-          officiis harum a aperiam? Quis quae eius labore vero voluptatum
-          tempora, a voluptas facilis libero.
-        </p>
-      </div>
-      <img
-        src="./assets/img/cliente.png"
-        alt="Uma mulher loira, branca, segurando uma planta"
-      />
-    </section>
-  </body>
+      <img src="./assets/planta-footer.png" alt="uma mão segurando um vaso de planta">
+
+    </div>
+  </section>
+
+  <footer>
+    <span>Copyright PlantStop© 2023</span>
+  </footer>
+
+</body>
+
 </html>
